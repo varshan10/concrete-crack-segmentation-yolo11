@@ -1,0 +1,11 @@
+# Expected local dataset layout:
+# datasets/concrete-crack-segmentation/
+#   images/train, images/val, labels/train, labels/val
+path: ../datasets/concrete-crack-segmentation
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: crack
+

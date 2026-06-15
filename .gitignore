@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ultralytics outputs and local data
+runs/
+datasets/*
+!datasets/.gitkeep
+
+# Model checkpoints are large; publish selected weights with GitHub Releases.
+weights/*
+!weights/.gitkeep
+*.onnx
+*.engine
+*.torchscript
+
+# Local media and logs
+*.avi
+*.mp4
+*.log
+
