@@ -5,7 +5,7 @@ pixel-level instance masks with Ultralytics YOLO11. The repository contains
 reproducible training, evaluation, and inference scripts together with selected
 results from a 50-epoch YOLO11l-seg experiment.
 
-![Validation predictions](docs/assets/validation_predictions.jpg)
+![Concrete crack segmentation example](docs/assets/example_prediction.jpg)
 
 ## Features
 
@@ -217,4 +217,3 @@ Record these details when publishing new results.
 No software license has been selected for this repository yet. Add a `LICENSE`
 file before publishing if you want others to be able to reuse or modify the
 code. The dataset has its own CC BY 4.0 license and attribution requirements.
-
